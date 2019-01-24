@@ -1,0 +1,104 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  font-size: calc(7px + (16 - 7) * ((100vw - 300px) / (1600 - 300)));
+  color: white;
+}
+
+header {
+  padding-top: 10px;
+  background: Black;
+  opacity: 0.9;
+  padding: 10px;
+}
+
+.banner {
+  padding-left: 10vw;
+}
+
+#title {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: white;
+  font-weight: 700;
+  line-height: .2em;
+  display: inline;
+}
+
+.yellow {
+  color: yellow;
+}
+
+#subtitle {
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+  color: White;
+  line-height: .2em;
+  font-weight: 300;
+}
+
+nav {
+  padding-left: 10vw;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+  margin-right: 10vmin;
+  padding-top: 10px;
+}
+
+nav a {
+  color: Black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: Gray;
+}
+
+
+.how-it-works {
+  background: url(./images/galaxy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vmax;
+  position: relative;
+  text-align: center;
+
+}
+
+.how-it-works .button {
+  color: white;
+  font-size: 3vmin;
+  font-weight: 500;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  padding-top: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 50px;
+}
+
+.how-it-works .button:hover {
+  background-color: yellow;
+  font-weight: 600;
+  color: black;
+}
+
+h2, h2 a {
+  color: white;
+  font-weight: 400;
+}
+
+.how-it-works h2 {
+  padding-top: 10%;
+}
